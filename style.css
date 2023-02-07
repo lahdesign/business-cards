@@ -2,21 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
     }
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-image: url('assets/front-card.jpg');
 }
 /* the main container */
 
 .front-side,
 .back-side {
-  width: 254px;
-  height: 441px;
+  width: 441px;
+  height: 254px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 20px auto;
@@ -44,15 +43,25 @@ body {
 }
 
 .icon-container{
-
-  width:80%;
+  position:absolute;
+  top: 150px;
+  left: 30px;
+  width:20%;
   margin: 0 auto;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
-  "a b c";
-  grid-gap: 9px;
+  "a"
+  "b"
+  "c";
+  grid-gap: 20px;
+}
+
+.text-container{
+  position:absolute;
+  top: 100px;
+  left: 50px;
 }
 
 /* .circle{
