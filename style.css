@@ -8,8 +8,7 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-image: url('assets/Body-video-w-pause.mp4');
 }
 /* the main container */
 
@@ -61,7 +60,8 @@ body {
 } */
 
 
-/* h3{
+h3{
+  font-family: 'spline';
   margin-bottom: 0px;
 }
 
