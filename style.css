@@ -63,14 +63,27 @@ body {
 h3{
   font-family: 'Spline Sans Mono', monospace;
   margin-bottom: 0px;
-  font-weight: 800;
+  font-size: xx-large;
+  font-weight: 700;
 }
 
-h5{
+h4{
+  font-family: 'Spline Sans Mono', monospace;
   margin-top: 0px;
   padding-top: 0px;
-} */
+  font-weight: 400;
+  font-size: 20px;
+} 
 
+
+h5{
+  font-family: 'Spline Sans Mono', monospace;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20;
+} 
 
 /* svg styling */
 /* .st0{display:none;} */
