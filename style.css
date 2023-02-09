@@ -18,10 +18,10 @@ body {
   height: 254px;
   position: relative;
   /* adjust this to space out the cards */
-  margin: 20px auto;
+  margin: 90px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  background-color:lightblue;
 }
 
 /* .front-side{
@@ -70,14 +70,18 @@ body {
 } */
 
 
-/* h3{
+h3{
   margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
 }
 
 h5{
   margin-top: 0px;
   padding-top: 0px;
-} */
+  font-family: 'Roboto', sans-serif;
+
+} 
 
 
 /* svg styling */
