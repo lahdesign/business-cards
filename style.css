@@ -44,14 +44,15 @@ body {
 
 .icon-container{
 
-  width:80%;
-  margin: 0 auto;
+  width:20%;
+  margin: 15 auto;
   display:grid;
+  position: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "a b c";
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
 
 /* .circle{
