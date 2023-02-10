@@ -53,7 +53,7 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 15px;
-  margin-left: 90;
+  margin-left: 100;
 }
 
 /* .circle{
@@ -68,7 +68,7 @@ h3{
   font-size: large;
   font-weight: 700;
   margin-top: 10;
-  margin-left: -12;
+  margin-left: -14;
   white-space: nowrap;
 }
 
