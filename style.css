@@ -13,16 +13,27 @@ body {
 }
 /* the main container */
 
-.front-side,
-.back-side {
-  width: 1215px;
-  height: 830px;
+.front-side{
+  width: 540px;
+  height: 330px;
   position: relative;
   /* adjust this to space out the cards */
-  margin: 20px auto;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 150px 0 0 170px;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-image: url('assets/Front-2-Card.jpg');
+}
+.back-side {
+  width: 540px;
+  height: 330px;
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 100px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  background-image: url('assets/Back-2-card.jpg');
+
 }
 
 /* .front-side{
@@ -52,7 +63,8 @@ body {
   grid-template-rows: 1fr;
   grid-template-areas: 
   "a b c";
-  grid-gap: 10px;
+  grid-gap: 9px;
+  padding: 130px 0 0 95px;
 }
 
 /* .circle{
