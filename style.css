@@ -9,7 +9,7 @@
 
 body {
     background-color: rgb(152, 126, 129);
-    background-image: url('assets/cab');
+    background-image: url('assets/BG.png');
 }
 /* the main container */
 
@@ -44,7 +44,6 @@ body {
   position: relative;
   margin-left:30px;
   padding: 10px
-
 }
 
 .secondary{
