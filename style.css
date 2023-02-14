@@ -8,31 +8,31 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-color: rgb(152, 126, 129);
+    background-image: url('assets/cab');
 }
 /* the main container */
 
 .front-side{
-  width: 540px;
-  height: 330px;
+  width: 1000px;
+  height: 750px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 100px auto;
   overflow: hidden;
-  padding: 150px 0 0 170px;
+  padding: 330px 0 0 290px;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-image: url('assets/Front-2-Card.jpg');
+  background-image: url('assets/Front-Smol.png');
 }
 .back-side {
-  width: 540px;
-  height: 330px;
+  width: 1000px;
+  height: 750px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 100px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-image: url('assets/Back-2-card.jpg');
+  background-image: url('assets/Back-Smol.png');
 
 }
 
@@ -64,7 +64,7 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 9px;
-  padding: 130px 0 0 95px;
+  padding: 300px 0 0 150px;
 }
 
 /* .circle{
