@@ -58,14 +58,25 @@ body {
   width:80%;
   margin: 0 auto;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1.5fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "a b c";
   grid-gap: 9px;
-  padding: 300px 0 0 150px;
+  padding: 300px 0 0 100px;
 }
 
+.insta_space{
+  padding: 20px 0 0 0;
+}
+
+.email_space{
+  padding: 20px 0 0 0;
+}
+
+.twit_space{
+  padding: 20px 0 0 0;
+}
 /* .circle{
   background-image: url("/assets/circle.svg");
   grid-area: a;
