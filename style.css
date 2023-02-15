@@ -12,10 +12,18 @@ body {
 }
 /* the main container */
 
+@media screen and (min-width: 800px) {
+  .front-side,
+  .back-side {
+    width: 70%;
+    height:max-content;
+  }
+
+
 .front-side,
 .back-side {
-  width: 441px;
-  height: 254px;
+  width: 254px;
+  height: 411px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 90px auto;
