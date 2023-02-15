@@ -11,12 +11,11 @@ body {
     background-image: url('assets/Body-video-w-pause.mp4');
     background-repeat: no-repeat;
     background-size: cover;
-    cursor: url('assets/CC.svg'), auto;	
-    cursor: small;
+    cursor: url('assets/NL-2-open.svg'), auto;	
     }
 
     a{
-      cursor: url("custom.svg");
+      cursor: url("assets/NL-2-closed.svg");
        }
    
 /* the main container */
