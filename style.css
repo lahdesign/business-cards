@@ -6,7 +6,15 @@
 
     }
 
-
+    @media screen and (max-width: 1200px) {
+      body{
+       transform-origin: top;
+       transform: scale(1.5);
+       margin:0 auto;
+      }
+     
+       }
+       
 body {
     background-color: rgb(152, 126, 129);
     background-image: url('assets/BG.png');
@@ -15,7 +23,7 @@ body {
 
 .front-side{
   width: 500px;
-  height: 350px;
+  height: 375px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 100px auto;
@@ -27,7 +35,7 @@ body {
 
 .back-side {
   width: 500px;
-  height: 3500px;
+  height: 375px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 100px auto;
@@ -39,7 +47,9 @@ body {
 
 /* .front-side{
 } */
-
+.text-container{
+width: 200;
+}
 .name{
   display: grid;
   position: relative;
@@ -64,7 +74,7 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 9px;
-  padding: 300px 0 0 100px;
+  padding: 150px 0 0 30px;
 }
 
 .insta_space{
@@ -106,7 +116,7 @@ svg{
   fill:none;
 }
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 .svg-interaction:hover{
   fill:rgb(118, 27, 237);
