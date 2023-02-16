@@ -14,19 +14,20 @@ body {
 /* the main container */
 
 .front-side{
-  width: 1000px;
-  height: 750px;
+  width: 500px;
+  height: 350px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 100px auto;
   overflow: hidden;
-  padding: 330px 0 0 290px;
+  padding: 150px 0 0 30px;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-image: url('assets/Front-Smol.png');
 }
+
 .back-side {
-  width: 1000px;
-  height: 750px;
+  width: 500px;
+  height: 3500px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 100px auto;
