@@ -47,9 +47,7 @@ body {
 
 /* .front-side{
 } */
-.text-container{
-width: 200;
-}
+
 .name{
   display: grid;
   position: relative;
