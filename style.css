@@ -26,10 +26,10 @@ body {
   height: 375px;
   position: relative;
   /* adjust this to space out the cards */
-  margin: 100px auto;
+  margin: 250px auto;
   overflow: hidden;
   padding: 160px 0 0 155px;
-  box-shadow: 2px 5px 15px 0px #17161694;
+  box-shadow: 2px 5px 15px 0px #13000994;
   background-image: url('assets/Front-Smol.png');
 }
 
@@ -38,9 +38,9 @@ body {
   height: 375px;
   position: relative;
   /* adjust this to space out the cards */
-  margin: 100px auto;
+  margin: 250px auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #17161694;
+  box-shadow: 2px 5px 15px 0px #13000994;
   background-image: url('assets/Back-Smol.png');
 
 }
