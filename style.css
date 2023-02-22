@@ -72,20 +72,11 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 9px;
-  padding: 140px 0 0 50px;
-}
-.instagram {
-  grid-area: a;
-  width: 40%;
-}
-.email {
-  grid-area: b;
-  width: 40%;
+  padding: 155px 0 0 65px;
 }
 
-.twitter {
-  grid-area: c;
-  width: 20%;
+.gdes {
+  padding: 100px 0 0 320px;
 }
 .insta_space{
   padding: 10px 0 0 0;
