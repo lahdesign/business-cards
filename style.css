@@ -75,11 +75,20 @@ body {
   padding: 155px 0 0 65px;
 }
 
-.gdes {
-  padding: 115px 0 0 330px;
+.text-back {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "d e f";
+  grid-gap: 9px;
+  padding: 15 0 0 40;
 }
-.insta_space{
-  padding: 10px 0 0 0;
+
+.gdes {
+  padding: 105px 0 0 330px;
 }
 
 .email_space{
@@ -89,24 +98,7 @@ body {
 .twit_space{
   padding: 10px 0 0 0;
 }
-/* .circle{
-  background-image: url("/assets/circle.svg");
-  grid-area: a;
-} */
 
-
-/* h3{
-  margin-bottom: 0px;
-}
-
-h5{
-  margin-top: 0px;
-  padding-top: 0px;
-} */
-
-
-/* svg styling */
-/* .st0{display:none;} */
 .st1{display:inline;}
 
 svg{
