@@ -74,7 +74,19 @@ body {
   grid-gap: 9px;
   padding: 140px 0 0 50px;
 }
+.instagram {
+  grid-area: a;
+  width: 40%;
+}
+.email {
+  grid-area: b;
+  width: 40%;
+}
 
+.twitter {
+  grid-area: c;
+  width: 20%;
+}
 .insta_space{
   padding: 10px 0 0 0;
 }
