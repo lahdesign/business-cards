@@ -9,7 +9,7 @@
     @media screen and (max-width: 1200px) {
       body{
        transform-origin: top;
-       transform: scale(0.5);
+       transform: scale(0.6);
        margin:0 auto;
       }
      
@@ -72,7 +72,7 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 9px;
-  padding: 145px 0 0 65px;
+  padding: 135px 0 0 70px;
 }
 
 .text-back {
@@ -84,11 +84,11 @@ body {
   grid-template-areas: 
   "d e f";
   grid-gap: 9px;
-  padding: 10 0 0 20;
+  padding: 10 0 0 0;
 }
 
 .gdes {
-  padding: 105px 0 0 330px;
+  padding: 125px 0 0 330px;
 }
 
 .email_space{
@@ -96,11 +96,11 @@ body {
 }
 
 .twit_space{
-  padding: 1px 0 0 5px;
+  padding: 1px 0 0 28px;
 }
 
 .insta_space {
-  padding: 0 0 0 10px;
+  padding: 0 0 0 35px;
 }
 
 .st1{display:inline;}
