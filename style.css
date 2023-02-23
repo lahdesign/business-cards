@@ -83,9 +83,13 @@ h4{
   margin-top: 0px;
   padding-top: 0px;
   font-weight: 400;
-  font-size: 20px;
+  font-style: italic;
+  font-size: 15;
+  position: center;
+  margin-top: 10;
+  margin-left: 73;
+  white-space: nowrap;
 } 
-
 
 h5{
   font-family: 'Spline Sans Mono', monospace;
