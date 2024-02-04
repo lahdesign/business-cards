@@ -21,7 +21,7 @@ body {
    
 /* the main container */
 
-/* a rersponsive grid for mobile*/
+/* a responsive grid for mobile*/
 /*this code will be used for when the screen size is 1200 pixels or less */
 
 @media screen and (max-width: 1200px) {
@@ -45,7 +45,7 @@ body {
 .secondary{
   display: grid;
   position: relative;
-  margin: left 70px;px;
+  margin: left 70px;
 
 }
 
